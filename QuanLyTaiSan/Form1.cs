@@ -18,7 +18,9 @@ namespace QuanLyTaiSan
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Dong y");
+
+            if (textBox1.Text != "")
+                MessageBox.Show("dep");
         }
     }
 }
