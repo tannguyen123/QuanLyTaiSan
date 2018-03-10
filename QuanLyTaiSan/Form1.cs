@@ -20,5 +20,10 @@ namespace QuanLyTaiSan
         {
             MessageBox.Show("Dong y");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dong y2");
+        }
     }
 }
